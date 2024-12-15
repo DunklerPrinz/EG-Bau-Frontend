@@ -168,11 +168,9 @@
     }
 
     .reviews-container {
-        gap: 15px; /* Smaller gaps for extra small screens */
     }
 
     .review-card {
-        padding: 15px; /* Further reduce padding */
         transform: none; /* No animation offset for smaller screens */
     }
 
@@ -184,8 +182,5 @@
         font-size: 0.8rem; /* Match text scale */
     }
 
-    .reviewer-image {
-        width: 80px; /* Smaller image size */
-        height: 80px;
-    }
+
 }

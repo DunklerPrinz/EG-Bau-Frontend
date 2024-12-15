@@ -59,9 +59,6 @@ const Reviews = () => {
             <div className="reviews-container" ref={containerRef}>
                 {reviewsData.map((review, index) => (
                     <div className="review-card" key={index}>
-                        <div className="reviewer-image">
-                        <img src={`${process.env.PUBLIC_URL}/${review.image}`} alt={review.name} />
-                        </div>
                         <div className="review-content">
                             <p className="review-text">"{review.review}"</p>
                             <p className="reviewer-name">- {review.name}</p>
