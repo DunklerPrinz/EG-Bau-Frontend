@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-container">
-                <img src="/logo.png" id="logo" alt="Logo" className="navbar-logo" />
+            <img src={`${process.env.PUBLIC_URL}/logo.png`} id="logo" alt="Logo" className="navbar-logo" />
                 <div className="hamburger" onClick={toggleMenu}>
                     <div className="bar"></div>
                     <div className="bar"></div>
