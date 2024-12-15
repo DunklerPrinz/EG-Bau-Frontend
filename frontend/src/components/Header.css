@@ -10,7 +10,7 @@
     align-items: center; /* Center content horizontally */
     width: 100%;
     overflow: hidden;
-    background-image: url('/Users/alaudinbajrami/Desktop/EG-Bau/frontend/src/components/DALL·E 2024-12-08 15.11.57 - A modern villa surrounded by a beautifully landscaped garden in a serene evening setting. The garden includes softly glowing pathway lights, artistic .webp');
+    background-image: url('CC6353B5-2CA8-45AD-8545-5D0005B5CD2F_1_201_a.jpeg');
     opacity: 0; /* Start hidden */
 }
 
@@ -98,6 +98,10 @@
 @media (max-width: 780px) {
     .header-title {
         font-size: 2rem;
+    }
+
+    .header {
+        background-image: url('/Users/alaudinbajrami/Desktop/EG-Bau/frontend/src/components/DALL·E 2024-12-08 15.05.38 - A modern villa surrounded by a spacious and beautifully landscaped garden that is elegant but not overly packed. The garden features neatly trimmed he.webp');
     }
     
 }

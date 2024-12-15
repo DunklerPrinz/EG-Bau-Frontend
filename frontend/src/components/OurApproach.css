@@ -137,5 +137,10 @@ color: #000000;
     margin-top: 5px;
     font-size: 10px;
   }
-  
+
+  .indicator {
+    height: 7px;
+    width: 7px;
+    margin: 0 6px;
+  }
 }

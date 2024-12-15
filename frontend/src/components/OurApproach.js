@@ -6,7 +6,7 @@ const OurApproach = () => {
         {
           title: "Nachhaltigkeit in Aktion",
           description:
-            "Wir setzen auf umweltfreundliche Praktiken, um in allen Bereichen einen positiven Beitrag zu leisten – für die Natur und zukünftige Generationen.",
+            "Wir setzen auf umweltfreundliche Praktiken, um in allen Bereichen einen positiven Beitrag zu leisten.",
         },
         {
           title: "Integrität und Vertrauen",
@@ -26,7 +26,7 @@ const OurApproach = () => {
         {
           title: "Innovation für die Zukunft",
           description:
-            "Wir entwickeln zukunftsorientierte Lösungen, um die Gärten von morgen zu gestalten und zukünftige Herausforderungen zu meistern.",
+            "Wir entwickeln Lösungen, um die Gärten von morgen zu gestalten und zukünftige Herausforderungen zu meistern.",
         },
         {
           title: "Menschen stärken",
@@ -36,7 +36,7 @@ const OurApproach = () => {
         {
           title: "Qualität vor Quantität",
           description:
-            "Wir legen Wert auf höchste Qualität, damit jedes Projekt unsere hohen Standards für Gartenpflege und Gestaltung widerspiegelt.",
+            "Wir legen Wert auf Exellenz, damit jedes Projekt unsere hohen Standards für Gartenpflege und Gestaltung widerspiegelt.",
         },
         {
           title: "Verantwortung und Rechenschaft",
