@@ -10,7 +10,7 @@ function SecondaryNavbar() {
     return (
         <header className="secondary-navbar">
             <nav className="secondary-bottom-bar">
-                <img src="/logo.png" id="logo" alt="Logo" className="secondary-navbar-logo" />
+                <img src={`${process.env.PUBLIC_URL}/logo.png`} id="logo" alt="Logo" className="secondary-navbar-logo" />
                 <ul className="secondary-nav-links">
                     <li>
                         <a href="#dienstleistungen" className="secondary-nav-link">

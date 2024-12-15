@@ -34,17 +34,17 @@ function LandingPage() {
 
                 <ServicesSection />
 
-                <ParallaxImage src="/coolerbild.jpg" height='300px' intensity={55} text="Gestalte, erschaffe und pflege Deinen Traumgarten mit uns!" />
+                <ParallaxImage src={`${process.env.PUBLIC_URL}/coolerbild.jpg`} height='300px' intensity={55} text="Gestalte, erschaffe und pflege Deinen Traumgarten mit uns!" />
 
                 <OurApproach />
 
                 <Projekte />
 
-                <ParallaxImage src="/nochmal.jpg" height="300px" intensity={55} text="Dein Garten, Deine Oase – Wir machen Träume grün!" />
+                <ParallaxImage src={`${process.env.PUBLIC_URL}/nochmal.jpg`} height="300px" intensity={55} text="Dein Garten, Deine Oase – Wir machen Träume grün!" />
 
                 <Contact />
 
-                <ParallaxImage src="/egzon2.jpg" height="300px" intensity={55} text="Wo Natur auf Leidenschaft trifft – Dein Garten in besten Händen!" />
+                <ParallaxImage src={`${process.env.PUBLIC_URL}/egzon2.jpg`} height="300px" intensity={55} text="Wo Natur auf Leidenschaft trifft – Dein Garten in besten Händen!" />
 
                 <AboutUs />
 

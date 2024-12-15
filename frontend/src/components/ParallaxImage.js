@@ -60,7 +60,7 @@ function ParallaxImage({ src, height = "400px", intensity = 20, text = "" }) {
             />
             <div className="testFlex">
                 <h1>{text}</h1>
-                <img src="/logo.png" alt="Logo" />
+                <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" />
             </div>
         </section>
     );

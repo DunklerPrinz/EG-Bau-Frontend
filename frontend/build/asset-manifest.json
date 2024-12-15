@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.31aeb453.css",
-    "main.js": "/static/js/main.6636925b.js",
-    "static/media/DALL·E 2024-12-08 14.57.56 - A luxurious modern house with a sleek design, large glass windows, and clean architectural lines, set amidst a meticulously landscaped garden. The gar.webp": "/static/media/DALL·E 2024-12-08 14.57.56 - A luxurious modern house with a sleek design, large glass windows, and clean architectural lines, set amidst a meticulously landscaped garden. The gar.abaf564f336031388daf.webp",
-    "static/media/Chatbot.webp": "/static/media/Chatbot.f4273db851bfec97a633.webp",
-    "static/media/fa-solid-900.ttf": "/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
-    "static/media/fa-brands-400.ttf": "/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
-    "static/media/final.jpeg": "/static/media/final.ecf7546631e6375481dd.jpeg",
-    "static/media/fa-solid-900.woff2": "/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
-    "static/media/fa-brands-400.woff2": "/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
-    "static/media/fa-regular-400.ttf": "/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
-    "static/media/fa-regular-400.woff2": "/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
-    "static/media/fa-v4compatibility.ttf": "/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
-    "static/media/fa-v4compatibility.woff2": "/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/index.html",
-    "main.31aeb453.css.map": "/static/css/main.31aeb453.css.map",
-    "main.6636925b.js.map": "/static/js/main.6636925b.js.map"
+    "main.css": "/EG-Bau-Frontend/static/css/main.3897812b.css",
+    "main.js": "/EG-Bau-Frontend/static/js/main.8490f60d.js",
+    "static/media/DALL·E 2024-12-08 14.57.56 - A luxurious modern house with a sleek design, large glass windows, and clean architectural lines, set amidst a meticulously landscaped garden. The gar.webp": "/EG-Bau-Frontend/static/media/DALL·E 2024-12-08 14.57.56 - A luxurious modern house with a sleek design, large glass windows, and clean architectural lines, set amidst a meticulously landscaped garden. The gar.abaf564f336031388daf.webp",
+    "static/media/Chatbot.webp": "/EG-Bau-Frontend/static/media/Chatbot.f4273db851bfec97a633.webp",
+    "static/media/fa-solid-900.ttf": "/EG-Bau-Frontend/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/fa-brands-400.ttf": "/EG-Bau-Frontend/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/final.jpeg": "/EG-Bau-Frontend/static/media/final.ecf7546631e6375481dd.jpeg",
+    "static/media/fa-solid-900.woff2": "/EG-Bau-Frontend/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/fa-brands-400.woff2": "/EG-Bau-Frontend/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/fa-regular-400.ttf": "/EG-Bau-Frontend/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/fa-regular-400.woff2": "/EG-Bau-Frontend/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "/EG-Bau-Frontend/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "/EG-Bau-Frontend/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
+    "static/media/slick.svg": "/EG-Bau-Frontend/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/EG-Bau-Frontend/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/EG-Bau-Frontend/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/EG-Bau-Frontend/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/EG-Bau-Frontend/index.html",
+    "main.3897812b.css.map": "/EG-Bau-Frontend/static/css/main.3897812b.css.map",
+    "main.8490f60d.js.map": "/EG-Bau-Frontend/static/js/main.8490f60d.js.map"
   },
   "entrypoints": [
-    "static/css/main.31aeb453.css",
-    "static/js/main.6636925b.js"
+    "static/css/main.3897812b.css",
+    "static/js/main.8490f60d.js"
   ]
 }
