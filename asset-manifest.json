@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/EG-Bau-Frontend/static/css/main.b40068f1.css",
-    "main.js": "/EG-Bau-Frontend/static/js/main.cc31fd70.js",
-    "static/media/DALL·E 2024-12-08 15.11.57 - A modern villa surrounded by a beautifully landscaped garden in a serene evening setting. The garden includes softly glowing pathway lights, artistic .webp": "/EG-Bau-Frontend/static/media/DALL·E 2024-12-08 15.11.57 - A modern villa surrounded by a beautifully landscaped garden in a serene evening setting. The garden includes softly glowing pathway lights, artistic .a2bc14150fed612750e8.webp",
+    "main.css": "/EG-Bau-Frontend/static/css/main.5ef241db.css",
+    "main.js": "/EG-Bau-Frontend/static/js/main.333269fe.js",
+    "static/media/CC6353B5-2CA8-45AD-8545-5D0005B5CD2F_1_201_a.jpeg": "/EG-Bau-Frontend/static/media/CC6353B5-2CA8-45AD-8545-5D0005B5CD2F_1_201_a.58e56c7aa63b1d2fed33.jpeg",
+    "static/media/DALL·E 2024-12-08 15.05.38 - A modern villa surrounded by a spacious and beautifully landscaped garden that is elegant but not overly packed. The garden features neatly trimmed he.webp": "/EG-Bau-Frontend/static/media/DALL·E 2024-12-08 15.05.38 - A modern villa surrounded by a spacious and beautifully landscaped garden that is elegant but not overly packed. The garden features neatly trimmed he.cd8ef6bc1a236aff2c5a.webp",
     "static/media/Chatbot.webp": "/EG-Bau-Frontend/static/media/Chatbot.f4273db851bfec97a633.webp",
     "static/media/fa-solid-900.ttf": "/EG-Bau-Frontend/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/fa-brands-400.ttf": "/EG-Bau-Frontend/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
@@ -18,11 +19,11 @@
     "static/media/slick.ttf": "/EG-Bau-Frontend/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/EG-Bau-Frontend/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/EG-Bau-Frontend/index.html",
-    "main.b40068f1.css.map": "/EG-Bau-Frontend/static/css/main.b40068f1.css.map",
-    "main.cc31fd70.js.map": "/EG-Bau-Frontend/static/js/main.cc31fd70.js.map"
+    "main.5ef241db.css.map": "/EG-Bau-Frontend/static/css/main.5ef241db.css.map",
+    "main.333269fe.js.map": "/EG-Bau-Frontend/static/js/main.333269fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.b40068f1.css",
-    "static/js/main.cc31fd70.js"
+    "static/css/main.5ef241db.css",
+    "static/js/main.333269fe.js"
   ]
 }
