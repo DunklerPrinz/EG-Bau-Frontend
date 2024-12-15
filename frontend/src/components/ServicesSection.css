@@ -101,6 +101,7 @@
     width: 90%; /* Adjust card width as needed */
     max-width: 400px; /* Optional: Limit maximum width for better appearance */
     box-sizing: border-box; /* Ensure padding/borders are included */
+    margin-bottom: 100px;
 }
 
 
@@ -121,5 +122,41 @@
 @media (min-width: 769px) {
     .mobile-slider {
         display: none;
+    }
+}
+
+
+/* Ensure consistent card size on mobile */
+.mobile-slider .service-card {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Distribute content evenly */
+    align-items: center; /* Center align content horizontally */
+    width: 90%; /* Set a uniform width */
+    max-width: 400px; /* Optional: Limit max width */
+    height: 300px; /* Set a consistent height */
+    margin: 0 auto; /* Center the cards */
+    box-sizing: border-box; /* Include padding and border in dimensions */
+    overflow: hidden; /* Avoid content spilling out */
+    margin-bottom: 40px;
+}
+
+/* Adjust text content to fit in consistent height */
+.mobile-slider .service-card p {
+    overflow: hidden; /* Truncate content that exceeds the box */
+    text-overflow: ellipsis; /* Add ellipsis for long text */
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Limit to 4 lines */
+    -webkit-box-orient: vertical;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .mobile-slider .service-card {
+        height: 250px; /* Slightly smaller height for very small screens */
+    }
+
+    .mobile-slider .service-card p {
+        -webkit-line-clamp: 3; /* Reduce lines to fit smaller cards */
     }
 }
