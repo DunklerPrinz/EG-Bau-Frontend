@@ -10,7 +10,7 @@
     align-items: center; /* Center content horizontally */
     width: 100%;
     overflow: hidden;
-    background-image: url('./DALL·E\ 2024-12-08\ 14.57.56\ -\ A\ luxurious\ modern\ house\ with\ a\ sleek\ design\,\ large\ glass\ windows\,\ and\ clean\ architectural\ lines\,\ set\ amidst\ a\ meticulously\ landscaped\ garden.\ The\ gar.webp');
+    background-image: url('/Users/alaudinbajrami/Desktop/EG-Bau/frontend/src/components/DALL·E 2024-12-08 15.11.57 - A modern villa surrounded by a beautifully landscaped garden in a serene evening setting. The garden includes softly glowing pathway lights, artistic .webp');
     opacity: 0; /* Start hidden */
 }
 
