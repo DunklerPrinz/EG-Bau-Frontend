@@ -197,7 +197,6 @@ const Slider = () => {
                 </div>
 
                 <div className='arrows'>
-                    <button id="prev" onClick={showPrevSlide}>&#8592;</button>
                     <button id="next" onClick={showNextSlide}>&#8594;</button>
                 </div>
                 <div className='time'></div>
