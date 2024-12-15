@@ -15,23 +15,23 @@ const Contact = () => {
     const handlePavingChange = (event) => {
         const pavingData = {
             cobblestone: {
-                image: '/pflaster1.webp',
+                image: `${process.env.PUBLIC_URL}/pflaster1.webp`,
                 description: 'Kopfsteinpflaster: Klassisch, langlebig und perfekt für einen rustikalen Look im Garten.',
             },
             brick: {
-                image: '/pflaster2.webp',
+                image: `${process.env.PUBLIC_URL}/pflaster2.webp`,
                 description: 'Ziegelpflaster: Ideal für traditionelle Designs mit warmen, erdigen Farbtönen.',
             },
             concrete: {
-                image: '/pflaster3.webp',
+                image: `${process.env.PUBLIC_URL}/pflaster3.webp`,
                 description: 'Betonplatten: Modern, glatt und vielseitig einsetzbar.',
             },
             flagstone: {
-                image: '/pflaster4.webp',
+                image: `${process.env.PUBLIC_URL}/pflaster4.webp`,
                 description: 'Natursteinplatten: Große, natürliche Steine für einen organischen Look.',
             },
             gravel: {
-                image: '/pflaster5.webp',
+                image: `${process.env.PUBLIC_URL}/pflaster5.webp`,
                 description: 'Kies: Flexibel, einfach zu verlegen und in verschiedenen Farben erhältlich.',
             },
         };
