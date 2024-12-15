@@ -40,13 +40,9 @@ function App() {
         <Router>
             <div className="main-container">
                 <Header />
-                <Routes>
-                    <Route path="/" element={<LandingPage />} />
-                    <Route path="/test" element={<Pisser />} />
-                </Routes>
+                <LandingPage />
                 <AboveFooter />
                 <Footer />
-
                 <ScrollToTopButton />
             </div>
         </Router>
