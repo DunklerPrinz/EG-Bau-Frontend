@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/EG-Bau-Frontend/static/css/main.3897812b.css",
-    "main.js": "/EG-Bau-Frontend/static/js/main.8490f60d.js",
+    "main.js": "/EG-Bau-Frontend/static/js/main.88598fff.js",
     "static/media/DALL·E 2024-12-08 14.57.56 - A luxurious modern house with a sleek design, large glass windows, and clean architectural lines, set amidst a meticulously landscaped garden. The gar.webp": "/EG-Bau-Frontend/static/media/DALL·E 2024-12-08 14.57.56 - A luxurious modern house with a sleek design, large glass windows, and clean architectural lines, set amidst a meticulously landscaped garden. The gar.abaf564f336031388daf.webp",
     "static/media/Chatbot.webp": "/EG-Bau-Frontend/static/media/Chatbot.f4273db851bfec97a633.webp",
     "static/media/fa-solid-900.ttf": "/EG-Bau-Frontend/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
@@ -19,10 +19,10 @@
     "static/media/slick.woff": "/EG-Bau-Frontend/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/EG-Bau-Frontend/index.html",
     "main.3897812b.css.map": "/EG-Bau-Frontend/static/css/main.3897812b.css.map",
-    "main.8490f60d.js.map": "/EG-Bau-Frontend/static/js/main.8490f60d.js.map"
+    "main.88598fff.js.map": "/EG-Bau-Frontend/static/js/main.88598fff.js.map"
   },
   "entrypoints": [
     "static/css/main.3897812b.css",
-    "static/js/main.8490f60d.js"
+    "static/js/main.88598fff.js"
   ]
 }
