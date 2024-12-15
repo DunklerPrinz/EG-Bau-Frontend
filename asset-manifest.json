@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/EG-Bau-Frontend/static/css/main.8eafc6df.css",
+    "main.css": "/EG-Bau-Frontend/static/css/main.54d59aed.css",
     "main.js": "/EG-Bau-Frontend/static/js/main.d5029c7f.js",
     "static/media/DALL·E 2024-12-08 15.11.57 - A modern villa surrounded by a beautifully landscaped garden in a serene evening setting. The garden includes softly glowing pathway lights, artistic .webp": "/EG-Bau-Frontend/static/media/DALL·E 2024-12-08 15.11.57 - A modern villa surrounded by a beautifully landscaped garden in a serene evening setting. The garden includes softly glowing pathway lights, artistic .a2bc14150fed612750e8.webp",
     "static/media/Chatbot.webp": "/EG-Bau-Frontend/static/media/Chatbot.f4273db851bfec97a633.webp",
@@ -18,11 +18,11 @@
     "static/media/slick.ttf": "/EG-Bau-Frontend/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/EG-Bau-Frontend/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/EG-Bau-Frontend/index.html",
-    "main.8eafc6df.css.map": "/EG-Bau-Frontend/static/css/main.8eafc6df.css.map",
+    "main.54d59aed.css.map": "/EG-Bau-Frontend/static/css/main.54d59aed.css.map",
     "main.d5029c7f.js.map": "/EG-Bau-Frontend/static/js/main.d5029c7f.js.map"
   },
   "entrypoints": [
-    "static/css/main.8eafc6df.css",
+    "static/css/main.54d59aed.css",
     "static/js/main.d5029c7f.js"
   ]
 }
