@@ -1,0 +1,50 @@
+/* Above Footer Container */
+.above-footer {
+    margin-top: 0; /* Remove top margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between each contact item */
+    padding: 30px 40px; /* Increased padding to make height larger */
+    background-color: #b58857; /* Medium brown */
+    color: #fff; /* White text for contrast */
+    font-family: 'Roboto', sans-serif;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: subtle shadow for depth */
+}
+
+/* Individual Contact Items */
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
+    font-size: 0.9rem;
+    padding: 5px 0; /* Added padding within each item for a balanced look */
+}
+
+/* Icons Styling */
+.contact-item i {
+    font-size: 1.2rem;
+    color: #f5e8dc; /* Light beige icons */
+}
+
+/* Text Styling */
+.contact-item p {
+    margin: 0;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.contact-item strong {
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .above-footer {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        text-align: center;
+        gap: 15px;
+        padding: 20px 20px; /* Slightly smaller padding for smaller screens */
+    }
+}

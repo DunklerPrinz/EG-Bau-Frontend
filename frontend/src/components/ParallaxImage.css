@@ -1,0 +1,80 @@
+.parallax-image {
+    width: 100%;
+    position: relative;
+    overflow: hidden; /* Ensure only part of the image is visible */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Image styling */
+.parallax-image img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Allow movement of the image */
+    top: 0; /* Start position */
+    left: 0;
+    transition: transform 0.1s linear; /* Smooth movement */
+}
+
+.testFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 70%;
+}
+
+.testFlex h1 {
+    z-index: 100;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.testFlex img {
+    height: 90px;
+    width: 230px;
+    top: 68%;
+    left: 45.5%;
+    background: rgba(127, 127, 127, 0.8);
+    border-radius: 10px;
+}
+
+.parallax-image.mobile {
+    height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .parallax-image {
+        height: 200px;
+        object-fit: cover;
+    }
+
+    #container-pic {
+        transform: none; /* Disable parallax effect */
+        filter: blur(2px);
+        height: 100%; /* Ensure the image spans the section */
+    }
+
+    .testFlex h1 {
+        font-size: 20px; /* Smaller font size for mobile */
+    }
+
+    .testFlex {
+        margin-top: 20px;
+        max-width: 80%;
+    }
+
+    .testFlex img {
+        display: none;
+    }
+
+}
+
+@media (min-width: 1000px) {
+    .testFlex {
+        max-width: 45%;
+    }
+}

@@ -1,0 +1,136 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    overflow-x: hidden;
+}
+
+/* Full-Width Section Styling */
+.section {
+    width: 100%;
+    position: relative;
+    padding: 80px 10%;
+    margin: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center the text */
+}
+
+/* Content Container */
+.section .content {
+    max-width: 800px; /* Restrict content width for readability */
+}
+
+/* Intro Section */
+.intro-section {
+    background: linear-gradient(190deg, #50634f 65%, #3b2a23 50%);
+    color: #fff;
+    padding: 100px 0;
+}
+
+.intro-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #e3d7c5;
+}
+
+.intro-section p {
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: #d1c0ad;
+}
+
+/* Founder Section */
+.founder-section {
+    background: linear-gradient(170deg, #3b2a23 70%, #a09d8b 55%);
+    color: #fff;
+    padding: 100px 0;
+}
+
+.founder-section h2 {
+    font-size: 2.5rem;
+    color: #e3c89a;
+    margin-bottom: 20px;
+}
+
+.founder-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #c4b199;
+}
+
+/* History Section */
+.history-section {
+    background: linear-gradient(190deg, #a09d8b 30%, #857d73 70%);
+    color: white;
+    padding: 100px 0;
+}
+
+.history-section h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.history-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #f7f2ef;
+}
+
+
+
+/* Goal Section #4b4e4d, #1b1d1c */
+.goal-section {
+    background: linear-gradient(185deg, #857d73 30%, #4e674d 70%);
+    padding: 100px 0;
+}
+
+.goal-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.goal-section p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+/* Flexbox Centering for Sections */
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center the text content */
+}
+
+/* Hover Animations */
+.section:hover {
+    transform: scale(1.02);
+    transition: all 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .section {
+        padding: 60px 5%;
+    }
+
+    .intro-section h1,
+    .founder-section h2,
+    .history-section h2,
+    .goal-section h2,
+    .map-section h2 {
+        font-size: 2rem;
+    }
+
+    .section p {
+        font-size: 1rem;
+    }
+}

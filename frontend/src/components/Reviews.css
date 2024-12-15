@@ -1,0 +1,191 @@
+/* Root variables for corporate colors */
+:root {
+    --light-beige: #f5e8dc;
+    --muted-beige: #d4c9b8;
+    --soft-muted-beige: #e2d8c4;
+    --dark-overlay: rgba(50, 50, 50, 0.8);
+    --background-gradient: linear-gradient(  #50634f, #8c7b6b 30%, rgb(197, 146, 65) 95%);
+    --text-color: #fff;
+    --header-color: #f5e8dc;
+    --subheader-color: #d4c9b8;
+}
+
+/* Reviews Section */
+.reviews-section {
+    background: var(--background-gradient);
+    padding: 60px 300px;
+    color: var(--text-color);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0; /* Remove bottom margin */
+
+
+}
+
+/* Reviews Header */
+.reviews-header {
+    margin-bottom: 40px;
+}
+
+.reviews-header h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--header-color);
+}
+
+.reviews-header p {
+    font-size: 1.2rem;
+    color: var(--subheader-color);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Reviews Container */
+.reviews-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.review-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px); /* Optional for a frosted glass effect */
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 350px;
+    flex: 1 1 300px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    color: var(--text-color);
+    transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+    opacity: 0; /* Start hidden */
+    transform: translateX(-50px); /* Start slightly left */
+}
+
+/* Animate when the card becomes visible */
+.review-card.animate {
+    opacity: 1;
+    transform: translateX(0); /* Move to original position */
+}
+
+/* Apply delays for nth-child elements */
+.review-card:nth-child(1) {
+    transition-delay: 0s;
+}
+
+.review-card:nth-child(2) {
+    transition-delay: 0.4s;
+}
+
+.review-card:nth-child(3) {
+    transition-delay: 0.6s;
+}
+
+
+.review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Reviewer Image */
+.reviewer-image {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 20px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 3px solid var(--light-beige);
+}
+
+.reviewer-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Review Content */
+.review-content {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.review-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--soft-muted-beige);
+    margin-bottom: 20px;
+}
+
+.reviewer-name {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--header-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .reviews-section {
+        padding: 40px 20px; /* Reduce padding for smaller screens */
+    }
+
+    .reviews-header h2 {
+        font-size: 1.8rem; /* Slightly smaller font for header */
+    }
+
+    .reviews-header p {
+        font-size: 1rem; /* Adjust font size for readability */
+        margin: 10px 0;
+    }
+
+    .reviews-container {
+        flex-direction: column; /* Stack the review cards vertically */
+        gap: 20px; /* Add some space between stacked cards */
+    }
+
+    .review-card {
+        max-width: 100%; /* Ensure cards take up full width */
+        padding: 20px; /* Reduce padding for better fit */
+    }
+
+    .review-text {
+        font-size: 0.9rem; /* Adjust font size for text */
+    }
+
+    .reviewer-name {
+        font-size: 0.85rem; /* Smaller font size for reviewer name */
+    }
+}
+
+@media (max-width: 480px) {
+    .reviews-header h2 {
+        font-size: 1.5rem; /* Smaller header for very small screens */
+    }
+
+    .reviews-header p {
+        font-size: 0.9rem; /* Adjust for readability */
+        line-height: 1.4; /* Tighter line spacing */
+    }
+
+    .reviews-container {
+        gap: 15px; /* Smaller gaps for extra small screens */
+    }
+
+    .review-card {
+        padding: 15px; /* Further reduce padding */
+        transform: none; /* No animation offset for smaller screens */
+    }
+
+    .review-text {
+        font-size: 0.85rem; /* Adjust font size */
+    }
+
+    .reviewer-name {
+        font-size: 0.8rem; /* Match text scale */
+    }
+
+    .reviewer-image {
+        width: 80px; /* Smaller image size */
+        height: 80px;
+    }
+}

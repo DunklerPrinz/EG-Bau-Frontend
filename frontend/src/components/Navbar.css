@@ -1,0 +1,145 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Navbar container */
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    backdrop-filter: blur(5px);
+    padding: 10px 20px;
+}
+
+/* Navbar content layout */
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 6px;
+    background-color: transparent;
+}
+
+/* Navbar logo */
+.navbar-logo {
+    height: 90px;
+    width: 230px;
+    background: rgba(127, 127, 127, 0.8);
+}
+
+/* Hamburger menu */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+/* Navbar links styling */
+.navbar-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar-link:hover {
+    color: gray;
+}
+
+/* Navbar button styling */
+.navbar-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-button:hover {
+    background-color: #8f4c12;
+    color: white;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+
+
+    .navbar-logo{
+        height: 55px;
+        width: 150px;
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    
+    .hamburger {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background-color: rgba(0, 0, 0, 0.8);
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+        border-radius: 8px;
+    }
+
+    .navbar-links.open {
+        display: flex;
+    }
+
+    .navbar-button {
+        display: none;
+    }
+}
+
+/* Responsive styling for larger screens */
+@media (min-width: 768px) {
+    .navbar-container {
+        padding: 0 40px;
+    }
+
+    .navbar-links {
+        display: flex;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navbar-button {
+        display: block;
+    }
+}
+
+@media (min-width: 1024px) {
+    .navbar-container {
+        padding: 0 80px;
+    }
+}
+
+

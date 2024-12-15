@@ -1,0 +1,14 @@
+.main-container {
+    width: 100%; /* Equivalent to w-full in Tailwind */
+    overflow: hidden; /* Equivalent to overflow-hidden in Tailwind */
+    background-color: linear-gradient(135deg, #3a3f3e, #4e674d);
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden; /* Prevent horizontal scroll caused by Safari quirks */
+    background-color: linear-gradient(135deg, #3a3f3e, #4e674d);
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,141 @@
+/* OurApproach.css */
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #3a3f3e, #4e674d); /* Dark grey to deep green gradient */
+  padding: 30px;
+  border-radius: 0px;
+}
+
+.slides-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  gap: 20px;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-content {
+  text-align: center;
+  padding: 25px;
+  border-radius: 12px;
+  background: linear-gradient(145deg, #673d06, #50390b); /* Rich green shades */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.slide-content:hover {
+  background: #f4f4f4; /* White background */
+  color: #4e674d; /* Deep green text */
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+.slide-content:hover .title, 
+.slide-content:hover .description {
+  color: #4e674d; /* Deep green for both title and description */
+}
+
+
+.text-overlay {
+color: #f3f3f3; /* Off-white text for readability */
+}
+
+.title {
+font-size: 28px;
+font-weight: bold;
+color: #f4e8db; /* Soft beige for a modern look */
+}
+
+.description {
+font-size: 18px;
+color: #3a3a3a; /* Subtle grey for secondary text */
+margin-top: 15px;
+}
+
+.arrow {
+background-color: #3a4e3a; /* Deep green */
+border: none;
+font-size: 26px;
+cursor: pointer;
+color: #f4f4f4; /* Bright text for contrast */
+padding: 10px 15px;
+border-radius: 50%;
+transition: background-color 0.3s;
+}
+
+.arrow:hover {
+background-color: #4e674d; /* Lighter green on hover */
+}
+
+.indicators {
+display: flex;
+margin-top: 15px;
+}
+
+.indicator {
+height: 14px;
+width: 14px;
+margin: 0 6px;
+background-color: #666; /* Muted grey */ border-radius: 0;
+border-radius: 50%;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.indicator.active {
+background-color: #5a7d5c; /* Match the green theme */
+}
+
+.modern-card {
+border: 1px solid #2f4f2f; /* Darker green border */
+background: #688467;
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+color: #000000;
+}
+
+@media (max-width: 768px) {
+
+  .slides-wrapper {
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+
+  .slide-content {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  /* Adjust to show one card at a time */
+  .slide {
+    flex: 0 0 100%;
+  }
+  }
+
+  @media (max-width: 480px) {
+  .slider-container {
+    padding: 20px;
+  }
+
+  .slide-content {
+    padding: 3px;
+    font-size: 12px;
+    border-radius: 8px;
+  }
+
+  .title {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .description {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+  
+}

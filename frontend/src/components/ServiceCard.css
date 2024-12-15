@@ -1,0 +1,38 @@
+.service-card {
+    background-color: #FFFFFF; /* White background */
+    border: 1px solid #DDD;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transform: scale(1); /* Default scale */
+    transition: transform 0.4s ease, opacity 0.4s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    opacity: 1; /* Ensure visibility */
+}
+
+/* Hover Effects */
+.service-card:hover {
+    transform: scale(1.1); /* Enlarge the card slightly */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+    cursor: pointer; /* Change cursor to indicate interactivity */
+}
+
+/* Icon Hover Effect */
+.service-card i {
+    font-size: 2rem;
+    color: #3E6D43; /* Dark green */
+    transition: color 0.3s ease;
+}
+
+
+
+/* Title Hover Effect */
+.service-card h3 {
+    font-size: 1.5rem;
+    color: #3e6d43; /* Deep green */
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+

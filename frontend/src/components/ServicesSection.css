@@ -1,0 +1,125 @@
+/* Services Section */
+.services {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #4d4d4d, #50634f); /* Grey to green gradient */
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.services h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #f5e8dc; /* Light beige */
+}
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    justify-content: center; /* Center the cards horizontally */
+    align-items: stretch; /* Ensure all cards stretch equally */
+    gap: 50px; /* Space between cards */
+    max-width: 1400px; /* Limit container width for better alignment */
+    margin: 0 auto; /* Center the container within the section */
+}
+
+.service-cards > * {
+    flex: 1 1 calc(25% - 30px); /* Make each card take 1/4 of the row width minus the gap */
+    box-sizing: border-box; /* Ensure padding and borders don't affect the size */
+}
+
+
+/* Service Card Styles */
+.service-card {
+    background-color: #ffffff; /* White for contrast */
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transform: translateY(0); /* Default position */
+    transition: transform 0.4s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    animation: fadeInUp 1s ease-in-out forwards;
+    overflow: hidden;
+    opacity: 1; /* Ensure visibility */
+}
+
+
+
+/* Title Styling */
+.service-card h3 {
+    font-size: 1.5rem;
+    color: #3e6d43; /* Deep green */
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+
+/* Description Text */
+.service-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555; /* Neutral grey */
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .service-cards {
+        grid-template-columns: repeat(3, 1fr); /* 3 cards per row on medium screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .service-cards {
+        grid-template-columns: repeat(2, 1fr); /* 2 cards per row on small screens */
+    }
+
+    .services h2 {
+        font-size: 2rem;
+    }
+
+    .service-card p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-cards {
+        grid-template-columns: 1fr; /* Single column on very small screens */
+    }
+}
+
+/* Center the card horizontally in the slider */
+.mobile-slider .slick-slide {
+    display: flex !important; /* Ensure flex layout for the slide */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.mobile-slider .service-card {
+    margin: 0 auto; /* Auto margins ensure centering */
+    width: 90%; /* Adjust card width as needed */
+    max-width: 400px; /* Optional: Limit maximum width for better appearance */
+    box-sizing: border-box; /* Ensure padding/borders are included */
+}
+
+
+
+
+/* Hide service-cards on mobile */
+@media (max-width: 768px) {
+    .service-cards {
+        display: none;
+    }
+
+    .mobile-slider {
+        display: block;
+    }
+}
+
+/* Hide mobile slider on larger screens */
+@media (min-width: 769px) {
+    .mobile-slider {
+        display: none;
+    }
+}
