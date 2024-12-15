@@ -84,6 +84,9 @@ html {
 /* Mobile-specific styles */
 @media (max-width: 768px) {
 
+    .navbar {
+        backdrop-filter: blur(0px);
+    }
 
     .navbar-logo{
         height: 55px;
